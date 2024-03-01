@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "I4A are too many"??0 );
+        System.out.println( "I4A are too many" );
     }
 }
