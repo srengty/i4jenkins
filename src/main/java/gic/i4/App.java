@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "I4 TP 1 Autobuild trigger" );
+        System.out.println( "I4 TP 1 Autobuild trigger every minute" );
     }
 }
