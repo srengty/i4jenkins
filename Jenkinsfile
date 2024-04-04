@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tool {
+        jdk 'jdk21'
+        maven 'maven'
+    }
 
     stages {
         stage('Fetch code') {
