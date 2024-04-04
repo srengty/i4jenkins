@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Fetch code') {
             steps {
-                get branch: 'main', url:'https://github.com/srengty/i4jenkins.git'
+                git branch: 'main', url:'https://github.com/srengty/i4jenkins.git'
             }
         }
         
